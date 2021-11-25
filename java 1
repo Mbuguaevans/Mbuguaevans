@@ -1,0 +1,24 @@
+import java.util.Scanner;
+ public class input {
+  public static void main(String[] args) {
+Scanner input=new Scanner(System.in);
+    System.out.println("enter an interger");
+    int mbugua=input.nextInt();
+     int kamaa=input.nextInt();
+      int evans=input.nextInt();
+      System.out.println("age ="+ mbugua );
+         System.out.println("dob ="+ kamaa );
+            System.out.println("height="+ evans );
+            if(mbugua>kamaa&&mbugua>evans){
+                System.out.println("mbugua n mzee");
+            }
+            else if(kamaa>mbugua&&kamaa>evans){
+                System.out.println("kamaa n mzee");
+            }
+             else if(evans>mbugua&&evans>kamaa){
+                System.out.println("evans n mzee");
+                 
+             }
+      input.close();
+  }
+}
